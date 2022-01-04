@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+    <head>
+	    <title>Meme Generator</title>
+    </head>
+    <body>
+	    
+	    <header>
+		    <div class="title">
+			    <h1>Make Your Meme</h1>
+		    </div>
+	    </header>
+        <div class="backgroundnotitle">
+	    <section class="container"> 
+		    <form id="memeform">
+				<label>Image URL:</label>
+			    <div>
+      		        <input type="url" class="form-control" id="upimg" style="width: 90vw;" placeholder="Type URL of image" required>
+   		        </div>	    
+
+		        <label>Text on top:</label>
+		        <div>
+  			        <input type="text" class="form-control" id="toptext" style="width: 90vw;" placeholder="Type what to put on top of image">
+		        </div>
+
+				<label>Text on Bottom:</label>
+			    <div>
+      		        <input type="text" class="form-control" id="bottomtext" style="width: 90vw;" placeholder="Type what to put on bottom of image">
+    	        </div>
+
+                <br>
+
+			    <div>
+      			    <input type="submit" class="btn btn-success" value="Make Meme">
+    		    </div>
+		    </form>
+	    </section>
+        </div>
+
+        <section class="memegallery">
+	        <ul class="gallery">
+	        </ul>
+        </section>
+
+	
+	    <script src="javascript.js"></script>
+
+    </body>
+</html>
